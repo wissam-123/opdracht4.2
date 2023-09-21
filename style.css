@@ -1,0 +1,55 @@
+h1 { font-size: 40px;
+    color:white;
+    font-weight: bold;
+    font-style: italic; }
+
+h2{
+        font-size: 20px;
+        color: #0000ff;
+        font-weight: bold;
+    }
+h3 { font-size:16px;
+        color: teal;
+        font-weight: bold;
+          }
+     /* Alle paragrafen */
+p {
+    color: #4D4D4D;
+
+}
+
+/*Alleen de eerste paragraaf */
+
+.Eersteparagraaf {
+    font-weight:bold;
+    color: white;
+    border:5px solid yellow;
+    border-radius: 30px;
+   
+   }
+
+
+
+a{ color: #8A2BE2; 
+    text-decoration: none;
+ }
+  header{ background-image: url(/img/gamen.PNG);
+     background-repeat: no-repeat;
+     background-size:100%; 
+     width:100vw;
+    height: 34vw;
+    background-position: center;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: bold;
+
+   }
+   img {
+    width: 50vw;
+  }  
+  article {
+    border: 3px solid #c42c4d; /* 3px brede, solide border met red kleur */
+    border-radius: 30px; /* Rond de hoeken, zodat de border rond is */
+    border-left-width: 5px; /* Dikkere linkerlijn van 5px breed */
+  }
+   
